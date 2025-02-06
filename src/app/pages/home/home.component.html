@@ -1,11 +1,23 @@
-<div class="contenedor">
-    <div class="flores" id="flores"></div>
-    <div class="carta" id="mensaje">
-        Querida Elizabeth,  
-        <br><br>
-        Desde el momento en que te conocí, supe que eras especial. 💖  
-        Cada día a tu lado es un regalo y no puedo imaginar este 14 de febrero sin ti.  
-        <br><br>
-        ¿Quieres ser mi Valentín? ❤️
+<div class="container">
+    <div class="flowers" id="flowers"></div>
+    <div class="letter">
+        <div class="initial-message" id="initial-message">
+            Querida Elizabeth,  
+            <br><br>
+            ¿Quieres ser mi Valentín? ❤️
+        </div>
+        <div class="text-message" id="message">
+            Desde el momento en que te conocí, supe que eras especial. 💖  
+            Cada día a tu lado es un regalo y no puedo imaginar este 14 de febrero sin ti.  
+            <br><br>
+            ❤️ Elizabeth & Armando ❤️
+        </div>
+
+        <div class="buttons">
+            <button class="btn btn-yes" onclick="acceptButton()">Sí 💖</button>
+            <button class="btn btn-no" id="btnNo" onmouseover="moveNoButton()">No 😢</button>
+        </div>
     </div>
 </div>
+<img src="assets/img/rabbit.png" class="rabbit left">
+<img src="assets/img/rabbit2.png" class="rabbit right">
