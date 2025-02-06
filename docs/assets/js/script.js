@@ -32,12 +32,12 @@ function moveNoButton(event) {
 }
 
 const flowerImages = [
-    "./assets/img/flower0.png",
-    "./assets/img/flower1.png",
-    "./assets/img/flower2.png",
-    "./assets/img/flower3.png",
-    "./assets/img/flower4.png",
-    "./assets/img/flower5.png"
+    "https://armandosj.github.io/valentine-day/assets/img/flower0.png",
+    "https://armandosj.github.io/valentine-day/assets/img/flower1.png",
+    "https://armandosj.github.io/valentine-day/assets/img/flower2.png",
+    "https://armandosj.github.io/valentine-day/assets/img/flower3.png",
+    "https://armandosj.github.io/valentine-day/assets/img/flower4.png",
+    "https://armandosj.github.io/valentine-day/assets/img/flower5.png"
 ];
 
 const flowersContainer = document.getElementById("flowers");
