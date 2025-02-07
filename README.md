@@ -22,10 +22,10 @@ ng generate component component-name
 
 To build the project run:
 
+prod
 ```bash
-ng build
 
-ng build --configuration=production
+ng build --configuration=production --output-path docs
 
 ```
 
