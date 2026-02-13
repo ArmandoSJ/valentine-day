@@ -28,6 +28,8 @@ prod
 ng build --configuration=production --output-path docs
 
 ```
+Finalizando el comando, si en el paquete docs contiene el paquete browser, mover todo lo que se encuentra adentro
+y ponlo en la raiz de docs.
 
 This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
 
